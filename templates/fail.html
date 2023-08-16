@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %} JSA Store {% endblock %}
+{% block content %}
+<header class="px-6 py-10 lg:py-20 bg-purple-500">
+    <div class="max-w-3xl mx-auto text-center">
+        <p class="mb-2 text-3xl lg:text-5xl text-white">Sorry For Faliure</p>
+
+        <p class="mb-10 text-white">Please Pay Your Bill..</p>
+
+        <a href="{% url 'checkout' %}" class="inline-block px-8 py-4 rounded-xl bg-white text-purple-500 hover:bg-gray-200" style="text-decoration: none;">Continue shopping</a>
+    </div>
+</header>
+{% endblock %}
