@@ -93,7 +93,7 @@ prometheus-client==0.17.1
 prompt-toolkit==3.0.39
 psutil==5.9.5
 pure-eval==0.2.2
-
+stripe==5.5.0
 pycparser==2.21
 PyGetWindow==0.0.9
 Pygments==2.15.1
