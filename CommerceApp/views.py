@@ -23,9 +23,7 @@ def frontpage(request):
         'products':products,
 
     }
-    if vpn_value==True:
-            
-            return redirect('Thankyou')
+   
 
    
     return render(request,'frontpage.html',context)
