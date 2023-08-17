@@ -18,30 +18,9 @@ def frontpage(request):
     products=Products.objects.all()
     ip_address=request.META.get('REMOTE_ADDR', '')
     print(ip_address)
-    url=f'https://vpnapi.io/api/{ip_address}?key=7552caea9d4344f6aeb5dccbe6418f69'
-    res=requests.get(url)
-    result=res.json()
-    vpn_value=result["security"]["vpn"]
-    city=result["location"]["city"]
-    country=result["location"]["country"]
-    continent=result["location"]["continent"]
-    network=result["network"]["network"]
-    autonomous_system_organization=result["network"]["autonomous_system_organization"]
-    print(vpn_value)
-    print(city)
-    print(continent)
-    print(country)
-    print(network)
-    print(autonomous_system_organization)
+    
     context={
         'products':products,
-        'city':city,
-        'country':country,
-        'continent':continent,
-        'network':network,
-        'autonomous_system_organization':autonomous_system_organization
-
-
 
     }
     if vpn_value==True:
