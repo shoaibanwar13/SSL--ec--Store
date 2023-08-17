@@ -93,8 +93,7 @@ prometheus-client==0.17.1
 prompt-toolkit==3.0.39
 psutil==5.9.5
 pure-eval==0.2.2
-PyAudio==0.2.13
-PyAutoGUI==0.9.54
+
 pycparser==2.21
 PyGetWindow==0.0.9
 Pygments==2.15.1
@@ -106,17 +105,6 @@ pyparsing==3.0.9
 pypdf==3.14.0
 pyperclip==1.8.2
 
-pypng==0.20220715.0
-PyRect==0.2.0
-pyscreenshot==3.1
-PyScreeze==0.1.29
-python-bidi==0.4.2
-python-dateutil==2.8.2
-python-json-logger==2.0.7
-pyttsx3==2.90
-pytweening==1.0.7
-pytz==2023.3
-pywhatkit==5.4
 
 
  
