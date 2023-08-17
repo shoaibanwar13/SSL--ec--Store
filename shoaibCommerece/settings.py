@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'CommerceApp',
     'crispy_forms',
     'crispy_bootstrap5',
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
