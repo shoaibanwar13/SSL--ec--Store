@@ -18,7 +18,7 @@ def frontpage(request):
     products=Products.objects.all()
     ip_address=request.META.get('REMOTE_ADDR', '')
     print(ip_address)
-    url=f'https://vpnapi.io/api/64.145.93.117?key=7552caea9d4344f6aeb5dccbe6418f69'
+    url=f'https://vpnapi.io/api/{ip_address}?key=7552caea9d4344f6aeb5dccbe6418f69'
     res=requests.get(url)
     result=res.json()
     vpn_value=result["security"]["vpn"]
@@ -44,9 +44,9 @@ def frontpage(request):
 
 
     }
-    #if vpn_value==True:
+    if vpn_value==True:
             
-            #return redirect('Thankyou')
+            return redirect('Thankyou')
 
    
     return render(request,'frontpage.html',context)
