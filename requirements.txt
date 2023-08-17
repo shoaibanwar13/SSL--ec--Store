@@ -105,7 +105,7 @@ PyMsgBox==1.0.9
 pyparsing==3.0.9
 pypdf==3.14.0
 pyperclip==1.8.2
-pypiwin32==223
+
 pypng==0.20220715.0
 PyRect==0.2.0
 pyscreenshot==3.1
